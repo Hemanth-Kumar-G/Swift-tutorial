@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct ButtonsDemo: View {
+    
+    @State var isAlertShow=false
     var body: some View {
         VStack{
             Button("Button"){}
@@ -21,17 +23,21 @@ struct ButtonsDemo: View {
                 .buttonStyle(.borderedProminent)
             
             Button{
-                
+                isAlertShow = true
             } label: {
                 Text("Click me")
                     .padding()
                     .foregroundColor(.white)
                     .background(.red)
                     .cornerRadius(15)
+            } .alert("do you want to delete", isPresented: $isAlertShow){
+                Button("delete",role: .destructive){}
+                Button("cancel",role: .cancel){}
             }
             
             Image(systemName: "pencil")
             Label("edit profile",systemImage: "pencil")
+            
         }
     }
 }
