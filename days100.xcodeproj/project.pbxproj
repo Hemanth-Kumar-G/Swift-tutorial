@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		80B54791295BC4E900705531 /* WordScramble.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B54790295BC4E900705531 /* WordScramble.swift */; };
+		80B54795295BD1FF00705531 /* start.txt in Resources */ = {isa = PBXBuildFile; fileRef = 80B54794295BD1FF00705531 /* start.txt */; };
 		80B6B2612957549200B2EF5E /* days100App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B6B2602957549200B2EF5E /* days100App.swift */; };
 		80B6B2632957549200B2EF5E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B6B2622957549200B2EF5E /* ContentView.swift */; };
 		80B6B2652957549400B2EF5E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80B6B2642957549400B2EF5E /* Assets.xcassets */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		80B54790295BC4E900705531 /* WordScramble.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordScramble.swift; sourceTree = "<group>"; };
+		80B54794295BD1FF00705531 /* start.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = start.txt; sourceTree = "<group>"; };
 		80B6B25D2957549200B2EF5E /* days100.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = days100.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		80B6B2602957549200B2EF5E /* days100App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = days100App.swift; sourceTree = "<group>"; };
 		80B6B2622957549200B2EF5E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -36,6 +40,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		80B5478F295BC4BD00705531 /* wordScramble */ = {
+			isa = PBXGroup;
+			children = (
+				80B54790295BC4E900705531 /* WordScramble.swift */,
+			);
+			path = wordScramble;
+			sourceTree = "<group>";
+		};
 		80B6B2542957549200B2EF5E = {
 			isa = PBXGroup;
 			children = (
@@ -55,6 +67,8 @@
 		80B6B25F2957549200B2EF5E /* days100 */ = {
 			isa = PBXGroup;
 			children = (
+				80B54794295BD1FF00705531 /* start.txt */,
+				80B5478F295BC4BD00705531 /* wordScramble */,
 				80B6B28F295A6A2E00B2EF5E /* DateAndTimePicker */,
 				80B6B28C295A691800B2EF5E /* steeper */,
 				80B6B2602957549200B2EF5E /* days100App.swift */,
@@ -148,6 +162,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				80B6B2682957549400B2EF5E /* Preview Assets.xcassets in Resources */,
+				80B54795295BD1FF00705531 /* start.txt in Resources */,
 				80B6B2652957549400B2EF5E /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -159,6 +174,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				80B54791295BC4E900705531 /* WordScramble.swift in Sources */,
 				80B6B2632957549200B2EF5E /* ContentView.swift in Sources */,
 				80B6B28E295A693E00B2EF5E /* StepperDemo.swift in Sources */,
 				80B6B2612957549200B2EF5E /* days100App.swift in Sources */,
