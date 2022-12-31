@@ -21,8 +21,9 @@ struct Animations: View {
         .clipShape(Circle())
         .overlay(
             Circle()
-                
+//                .fill(.blue)
                 .stroke(.red)
+            
                 .scaleEffect(animationValue)
                 .opacity(2-animationValue)
                 .animation(.easeIn(duration: 1)
