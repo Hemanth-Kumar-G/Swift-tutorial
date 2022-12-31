@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		8072F983295FF74600BE9DF9 /* Animations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8072F982295FF74600BE9DF9 /* Animations.swift */; };
 		8072F9852960111600BE9DF9 /* AnimationsSecond.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8072F9842960111600BE9DF9 /* AnimationsSecond.swift */; };
+		8072F9872960165E00BE9DF9 /* AnimationRotate3D.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8072F9862960165E00BE9DF9 /* AnimationRotate3D.swift */; };
+		8072F98929601CFB00BE9DF9 /* AnimationBoolean.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8072F98829601CFB00BE9DF9 /* AnimationBoolean.swift */; };
+		8072F98B296022D700BE9DF9 /* AnimationDrag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8072F98A296022D700BE9DF9 /* AnimationDrag.swift */; };
 		80B54791295BC4E900705531 /* WordScramble.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B54790295BC4E900705531 /* WordScramble.swift */; };
 		80B54795295BD1FF00705531 /* start.txt in Resources */ = {isa = PBXBuildFile; fileRef = 80B54794295BD1FF00705531 /* start.txt */; };
 		80B6B2612957549200B2EF5E /* days100App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B6B2602957549200B2EF5E /* days100App.swift */; };
@@ -22,6 +25,9 @@
 /* Begin PBXFileReference section */
 		8072F982295FF74600BE9DF9 /* Animations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animations.swift; sourceTree = "<group>"; };
 		8072F9842960111600BE9DF9 /* AnimationsSecond.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationsSecond.swift; sourceTree = "<group>"; };
+		8072F9862960165E00BE9DF9 /* AnimationRotate3D.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationRotate3D.swift; sourceTree = "<group>"; };
+		8072F98829601CFB00BE9DF9 /* AnimationBoolean.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationBoolean.swift; sourceTree = "<group>"; };
+		8072F98A296022D700BE9DF9 /* AnimationDrag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationDrag.swift; sourceTree = "<group>"; };
 		80B54790295BC4E900705531 /* WordScramble.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordScramble.swift; sourceTree = "<group>"; };
 		80B54794295BD1FF00705531 /* start.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = start.txt; sourceTree = "<group>"; };
 		80B6B25D2957549200B2EF5E /* days100.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = days100.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -49,6 +55,9 @@
 			children = (
 				8072F982295FF74600BE9DF9 /* Animations.swift */,
 				8072F9842960111600BE9DF9 /* AnimationsSecond.swift */,
+				8072F9862960165E00BE9DF9 /* AnimationRotate3D.swift */,
+				8072F98829601CFB00BE9DF9 /* AnimationBoolean.swift */,
+				8072F98A296022D700BE9DF9 /* AnimationDrag.swift */,
 			);
 			path = animations;
 			sourceTree = "<group>";
@@ -191,9 +200,12 @@
 				8072F9852960111600BE9DF9 /* AnimationsSecond.swift in Sources */,
 				80B54791295BC4E900705531 /* WordScramble.swift in Sources */,
 				80B6B2632957549200B2EF5E /* ContentView.swift in Sources */,
+				8072F9872960165E00BE9DF9 /* AnimationRotate3D.swift in Sources */,
 				8072F983295FF74600BE9DF9 /* Animations.swift in Sources */,
 				80B6B28E295A693E00B2EF5E /* StepperDemo.swift in Sources */,
 				80B6B2612957549200B2EF5E /* days100App.swift in Sources */,
+				8072F98929601CFB00BE9DF9 /* AnimationBoolean.swift in Sources */,
+				8072F98B296022D700BE9DF9 /* AnimationDrag.swift in Sources */,
 				80B6B291295A6A5500B2EF5E /* DateTimePickerDemo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
