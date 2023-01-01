@@ -18,6 +18,9 @@
 		8072F9942960712F00BE9DF9 /* SheetDismissDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8072F9932960712F00BE9DF9 /* SheetDismissDemo.swift */; };
 		8072F9972960932B00BE9DF9 /* DeleteFromListDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8072F9962960932B00BE9DF9 /* DeleteFromListDemo.swift */; };
 		8072F99A2960D1CB00BE9DF9 /* UserDefaultDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8072F9992960D1CB00BE9DF9 /* UserDefaultDemo.swift */; };
+		8072F99D29615E6100BE9DF9 /* ExpenseItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8072F99C29615E6100BE9DF9 /* ExpenseItem.swift */; };
+		8072F99F29615ECB00BE9DF9 /* Expenses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8072F99E29615ECB00BE9DF9 /* Expenses.swift */; };
+		8072F9A129615F0C00BE9DF9 /* ExpensesDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8072F9A029615F0C00BE9DF9 /* ExpensesDemoView.swift */; };
 		80B54791295BC4E900705531 /* WordScramble.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B54790295BC4E900705531 /* WordScramble.swift */; };
 		80B54795295BD1FF00705531 /* start.txt in Resources */ = {isa = PBXBuildFile; fileRef = 80B54794295BD1FF00705531 /* start.txt */; };
 		80B6B2612957549200B2EF5E /* days100App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B6B2602957549200B2EF5E /* days100App.swift */; };
@@ -40,6 +43,9 @@
 		8072F9932960712F00BE9DF9 /* SheetDismissDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetDismissDemo.swift; sourceTree = "<group>"; };
 		8072F9962960932B00BE9DF9 /* DeleteFromListDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteFromListDemo.swift; sourceTree = "<group>"; };
 		8072F9992960D1CB00BE9DF9 /* UserDefaultDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultDemo.swift; sourceTree = "<group>"; };
+		8072F99C29615E6100BE9DF9 /* ExpenseItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseItem.swift; sourceTree = "<group>"; };
+		8072F99E29615ECB00BE9DF9 /* Expenses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expenses.swift; sourceTree = "<group>"; };
+		8072F9A029615F0C00BE9DF9 /* ExpensesDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpensesDemoView.swift; sourceTree = "<group>"; };
 		80B54790295BC4E900705531 /* WordScramble.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordScramble.swift; sourceTree = "<group>"; };
 		80B54794295BD1FF00705531 /* start.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = start.txt; sourceTree = "<group>"; };
 		80B6B25D2957549200B2EF5E /* days100.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = days100.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -94,6 +100,16 @@
 			path = userDefault;
 			sourceTree = "<group>";
 		};
+		8072F99B29615E4900BE9DF9 /* expense */ = {
+			isa = PBXGroup;
+			children = (
+				8072F99C29615E6100BE9DF9 /* ExpenseItem.swift */,
+				8072F99E29615ECB00BE9DF9 /* Expenses.swift */,
+				8072F9A029615F0C00BE9DF9 /* ExpensesDemoView.swift */,
+			);
+			path = expense;
+			sourceTree = "<group>";
+		};
 		80B5478F295BC4BD00705531 /* wordScramble */ = {
 			isa = PBXGroup;
 			children = (
@@ -121,6 +137,7 @@
 		80B6B25F2957549200B2EF5E /* days100 */ = {
 			isa = PBXGroup;
 			children = (
+				8072F99B29615E4900BE9DF9 /* expense */,
 				8072F9982960D1B400BE9DF9 /* userDefault */,
 				8072F99029606B4E00BE9DF9 /* stateObserver */,
 				8072F981295FF70000BE9DF9 /* animations */,
@@ -235,10 +252,13 @@
 				8072F9942960712F00BE9DF9 /* SheetDismissDemo.swift in Sources */,
 				80B54791295BC4E900705531 /* WordScramble.swift in Sources */,
 				80B6B2632957549200B2EF5E /* ContentView.swift in Sources */,
+				8072F9A129615F0C00BE9DF9 /* ExpensesDemoView.swift in Sources */,
 				8072F98F2960445000BE9DF9 /* AnimationCustom.swift in Sources */,
 				8072F99229606B8C00BE9DF9 /* StateObersverDemo.swift in Sources */,
+				8072F99F29615ECB00BE9DF9 /* Expenses.swift in Sources */,
 				8072F9872960165E00BE9DF9 /* AnimationRotate3D.swift in Sources */,
 				8072F983295FF74600BE9DF9 /* Animations.swift in Sources */,
+				8072F99D29615E6100BE9DF9 /* ExpenseItem.swift in Sources */,
 				80B6B28E295A693E00B2EF5E /* StepperDemo.swift in Sources */,
 				8072F99A2960D1CB00BE9DF9 /* UserDefaultDemo.swift in Sources */,
 				80B6B2612957549200B2EF5E /* days100App.swift in Sources */,

@@ -11,7 +11,7 @@ import SwiftUI
 struct days100App: App {
     var body: some Scene {
         WindowGroup {
-            UserDefaultDemo()
+            ExpensesDemoView()
         }
     }
 }
