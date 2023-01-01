@@ -27,6 +27,15 @@
 		8072F9AC2961BDA800BE9DF9 /* NavigationLinkDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8072F9AB2961BDA800BE9DF9 /* NavigationLinkDemo.swift */; };
 		8072F9AF2961C5A800BE9DF9 /* CodableDataDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8072F9AE2961C5A800BE9DF9 /* CodableDataDecoder.swift */; };
 		8072F9B22961CB2F00BE9DF9 /* GridExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8072F9B12961CB2F00BE9DF9 /* GridExample.swift */; };
+		8072F9B52961DD5100BE9DF9 /* FileJsonDecoderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8072F9B42961DD5100BE9DF9 /* FileJsonDecoderView.swift */; };
+		8072F9B82961DD8000BE9DF9 /* astronauts.json in Resources */ = {isa = PBXBuildFile; fileRef = 8072F9B62961DD8000BE9DF9 /* astronauts.json */; };
+		8072F9B92961DD8000BE9DF9 /* missions.json in Resources */ = {isa = PBXBuildFile; fileRef = 8072F9B72961DD8000BE9DF9 /* missions.json */; };
+		8072F9BC2961DE3E00BE9DF9 /* Astronaut.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8072F9BB2961DE3E00BE9DF9 /* Astronaut.swift */; };
+		8072F9BE2961DEB600BE9DF9 /* Bunde_Decodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8072F9BD2961DEB600BE9DF9 /* Bunde_Decodable.swift */; };
+		8072F9C02961E38700BE9DF9 /* Missions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8072F9BF2961E38700BE9DF9 /* Missions.swift */; };
+		8072F9C22961F09800BE9DF9 /* Color-Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8072F9C12961F09800BE9DF9 /* Color-Theme.swift */; };
+		8072F9C42961F4CE00BE9DF9 /* MissionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8072F9C32961F4CE00BE9DF9 /* MissionView.swift */; };
+		8072F9C62962018E00BE9DF9 /* AstronautView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8072F9C52962018E00BE9DF9 /* AstronautView.swift */; };
 		80B54791295BC4E900705531 /* WordScramble.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B54790295BC4E900705531 /* WordScramble.swift */; };
 		80B54795295BD1FF00705531 /* start.txt in Resources */ = {isa = PBXBuildFile; fileRef = 80B54794295BD1FF00705531 /* start.txt */; };
 		80B6B2612957549200B2EF5E /* days100App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B6B2602957549200B2EF5E /* days100App.swift */; };
@@ -58,6 +67,15 @@
 		8072F9AB2961BDA800BE9DF9 /* NavigationLinkDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationLinkDemo.swift; sourceTree = "<group>"; };
 		8072F9AE2961C5A800BE9DF9 /* CodableDataDecoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableDataDecoder.swift; sourceTree = "<group>"; };
 		8072F9B12961CB2F00BE9DF9 /* GridExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridExample.swift; sourceTree = "<group>"; };
+		8072F9B42961DD5100BE9DF9 /* FileJsonDecoderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileJsonDecoderView.swift; sourceTree = "<group>"; };
+		8072F9B62961DD8000BE9DF9 /* astronauts.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = astronauts.json; sourceTree = "<group>"; };
+		8072F9B72961DD8000BE9DF9 /* missions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = missions.json; sourceTree = "<group>"; };
+		8072F9BB2961DE3E00BE9DF9 /* Astronaut.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Astronaut.swift; sourceTree = "<group>"; };
+		8072F9BD2961DEB600BE9DF9 /* Bunde_Decodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bunde_Decodable.swift; sourceTree = "<group>"; };
+		8072F9BF2961E38700BE9DF9 /* Missions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Missions.swift; sourceTree = "<group>"; };
+		8072F9C12961F09800BE9DF9 /* Color-Theme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Color-Theme.swift"; sourceTree = "<group>"; };
+		8072F9C32961F4CE00BE9DF9 /* MissionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionView.swift; sourceTree = "<group>"; };
+		8072F9C52962018E00BE9DF9 /* AstronautView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstronautView.swift; sourceTree = "<group>"; };
 		80B54790295BC4E900705531 /* WordScramble.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordScramble.swift; sourceTree = "<group>"; };
 		80B54794295BD1FF00705531 /* start.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = start.txt; sourceTree = "<group>"; };
 		80B6B25D2957549200B2EF5E /* days100.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = days100.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -163,6 +181,30 @@
 			path = GridExample;
 			sourceTree = "<group>";
 		};
+		8072F9B32961DD1E00BE9DF9 /* FileJsonDecoder */ = {
+			isa = PBXGroup;
+			children = (
+				8072F9BA2961DE2800BE9DF9 /* model */,
+				8072F9B62961DD8000BE9DF9 /* astronauts.json */,
+				8072F9C12961F09800BE9DF9 /* Color-Theme.swift */,
+				8072F9B72961DD8000BE9DF9 /* missions.json */,
+				8072F9B42961DD5100BE9DF9 /* FileJsonDecoderView.swift */,
+				8072F9BD2961DEB600BE9DF9 /* Bunde_Decodable.swift */,
+				8072F9BF2961E38700BE9DF9 /* Missions.swift */,
+				8072F9C32961F4CE00BE9DF9 /* MissionView.swift */,
+				8072F9C52962018E00BE9DF9 /* AstronautView.swift */,
+			);
+			path = FileJsonDecoder;
+			sourceTree = "<group>";
+		};
+		8072F9BA2961DE2800BE9DF9 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				8072F9BB2961DE3E00BE9DF9 /* Astronaut.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
 		80B5478F295BC4BD00705531 /* wordScramble */ = {
 			isa = PBXGroup;
 			children = (
@@ -190,6 +232,7 @@
 		80B6B25F2957549200B2EF5E /* days100 */ = {
 			isa = PBXGroup;
 			children = (
+				8072F9B32961DD1E00BE9DF9 /* FileJsonDecoder */,
 				8072F9B02961CB1900BE9DF9 /* GridExample */,
 				8072F9AD2961C58D00BE9DF9 /* hierarchical Codable data  */,
 				8072F9AA2961BD8E00BE9DF9 /* navigatioLinkDemo */,
@@ -294,8 +337,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				80B6B2682957549400B2EF5E /* Preview Assets.xcassets in Resources */,
+				8072F9B92961DD8000BE9DF9 /* missions.json in Resources */,
 				80B54795295BD1FF00705531 /* start.txt in Resources */,
 				80B6B2652957549400B2EF5E /* Assets.xcassets in Resources */,
+				8072F9B82961DD8000BE9DF9 /* astronauts.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,16 +359,23 @@
 				8072F9AF2961C5A800BE9DF9 /* CodableDataDecoder.swift in Sources */,
 				8072F98F2960445000BE9DF9 /* AnimationCustom.swift in Sources */,
 				8072F99229606B8C00BE9DF9 /* StateObersverDemo.swift in Sources */,
+				8072F9C02961E38700BE9DF9 /* Missions.swift in Sources */,
 				8072F9A32961721500BE9DF9 /* AddExpensesView.swift in Sources */,
+				8072F9C62962018E00BE9DF9 /* AstronautView.swift in Sources */,
 				8072F99F29615ECB00BE9DF9 /* Expenses.swift in Sources */,
 				8072F9872960165E00BE9DF9 /* AnimationRotate3D.swift in Sources */,
 				8072F983295FF74600BE9DF9 /* Animations.swift in Sources */,
 				8072F99D29615E6100BE9DF9 /* ExpenseItem.swift in Sources */,
 				80B6B28E295A693E00B2EF5E /* StepperDemo.swift in Sources */,
 				8072F99A2960D1CB00BE9DF9 /* UserDefaultDemo.swift in Sources */,
+				8072F9C42961F4CE00BE9DF9 /* MissionView.swift in Sources */,
 				80B6B2612957549200B2EF5E /* days100App.swift in Sources */,
 				8072F98D296040CD00BE9DF9 /* AnimationVisibility.swift in Sources */,
+				8072F9B52961DD5100BE9DF9 /* FileJsonDecoderView.swift in Sources */,
+				8072F9C22961F09800BE9DF9 /* Color-Theme.swift in Sources */,
+				8072F9BC2961DE3E00BE9DF9 /* Astronaut.swift in Sources */,
 				8072F9A92961A67800BE9DF9 /* ScrollViewDemo.swift in Sources */,
+				8072F9BE2961DEB600BE9DF9 /* Bunde_Decodable.swift in Sources */,
 				8072F9A62961921900BE9DF9 /* ImageDemoView.swift in Sources */,
 				8072F9B22961CB2F00BE9DF9 /* GridExample.swift in Sources */,
 				8072F98929601CFB00BE9DF9 /* AnimationBoolean.swift in Sources */,
