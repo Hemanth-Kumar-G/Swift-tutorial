@@ -8,7 +8,7 @@
 import Foundation
 
 struct ExpenseItem : Identifiable ,Codable {
-    let id : UUID = UUID()
+    var id : UUID = UUID()
     let name :String
     let type :String
     let amount :Double

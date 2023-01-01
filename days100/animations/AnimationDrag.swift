@@ -16,7 +16,7 @@ struct AnimationDrag: View {
     
     var body: some View {
         HStack(spacing: 0){
-            ForEach(0..<letters.count){  num in
+            ForEach(0..<letters.count, id:\.self){  num in
                 Text(String(letters[num]))
                     .font(.title)
                    
@@ -33,7 +33,7 @@ struct AnimationDrag: View {
         }
         .gesture(
             DragGesture()
-                .onChanged{
+                .onChanged{ 
                     dragAmpunt = $0.translation
                 }
                 .onEnded { _ in
