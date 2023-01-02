@@ -37,6 +37,7 @@
 		8072F9C42961F4CE00BE9DF9 /* MissionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8072F9C32961F4CE00BE9DF9 /* MissionView.swift */; };
 		8072F9C62962018E00BE9DF9 /* AstronautView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8072F9C52962018E00BE9DF9 /* AstronautView.swift */; };
 		8072F9C9296265AC00BE9DF9 /* CustomPathView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8072F9C8296265AC00BE9DF9 /* CustomPathView.swift */; };
+		8072F9CB2962977900BE9DF9 /* ShapeSampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8072F9CA2962977900BE9DF9 /* ShapeSampleView.swift */; };
 		80B54791295BC4E900705531 /* WordScramble.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B54790295BC4E900705531 /* WordScramble.swift */; };
 		80B54795295BD1FF00705531 /* start.txt in Resources */ = {isa = PBXBuildFile; fileRef = 80B54794295BD1FF00705531 /* start.txt */; };
 		80B6B2612957549200B2EF5E /* days100App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B6B2602957549200B2EF5E /* days100App.swift */; };
@@ -78,6 +79,7 @@
 		8072F9C32961F4CE00BE9DF9 /* MissionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionView.swift; sourceTree = "<group>"; };
 		8072F9C52962018E00BE9DF9 /* AstronautView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstronautView.swift; sourceTree = "<group>"; };
 		8072F9C8296265AC00BE9DF9 /* CustomPathView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPathView.swift; sourceTree = "<group>"; };
+		8072F9CA2962977900BE9DF9 /* ShapeSampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeSampleView.swift; sourceTree = "<group>"; };
 		80B54790295BC4E900705531 /* WordScramble.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordScramble.swift; sourceTree = "<group>"; };
 		80B54794295BD1FF00705531 /* start.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = start.txt; sourceTree = "<group>"; };
 		80B6B25D2957549200B2EF5E /* days100.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = days100.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -207,12 +209,13 @@
 			path = model;
 			sourceTree = "<group>";
 		};
-		8072F9C72962638600BE9DF9 /* canvas_custom_draw */ = {
+		8072F9C72962638600BE9DF9 /* canvas tutorial */ = {
 			isa = PBXGroup;
 			children = (
 				8072F9C8296265AC00BE9DF9 /* CustomPathView.swift */,
+				8072F9CA2962977900BE9DF9 /* ShapeSampleView.swift */,
 			);
-			path = canvas_custom_draw;
+			path = "canvas tutorial";
 			sourceTree = "<group>";
 		};
 		80B5478F295BC4BD00705531 /* wordScramble */ = {
@@ -242,7 +245,7 @@
 		80B6B25F2957549200B2EF5E /* days100 */ = {
 			isa = PBXGroup;
 			children = (
-				8072F9C72962638600BE9DF9 /* canvas_custom_draw */,
+				8072F9C72962638600BE9DF9 /* canvas tutorial */,
 				8072F9B32961DD1E00BE9DF9 /* FileJsonDecoder */,
 				8072F9B02961CB1900BE9DF9 /* GridExample */,
 				8072F9AD2961C58D00BE9DF9 /* hierarchical Codable data  */,
@@ -364,6 +367,7 @@
 			files = (
 				8072F9852960111600BE9DF9 /* AnimationsSecond.swift in Sources */,
 				8072F9942960712F00BE9DF9 /* SheetDismissDemo.swift in Sources */,
+				8072F9CB2962977900BE9DF9 /* ShapeSampleView.swift in Sources */,
 				80B54791295BC4E900705531 /* WordScramble.swift in Sources */,
 				80B6B2632957549200B2EF5E /* ContentView.swift in Sources */,
 				8072F9A129615F0C00BE9DF9 /* ExpensesDemoView.swift in Sources */,
