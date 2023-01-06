@@ -41,6 +41,12 @@
 		8072F9CE2962ACB300BE9DF9 /* ImagePaintDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8072F9CD2962ACB300BE9DF9 /* ImagePaintDemo.swift */; };
 		8072F9D02962B4E900BE9DF9 /* ColorGrp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8072F9CF2962B4E900BE9DF9 /* ColorGrp.swift */; };
 		8072F9D32962BD3400BE9DF9 /* DrawingDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8072F9D22962BD3400BE9DF9 /* DrawingDemo.swift */; };
+		8072F9D62962DC9300BE9DF9 /* CupCakeCoverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8072F9D52962DC9300BE9DF9 /* CupCakeCoverView.swift */; };
+		8072F9D82962F12E00BE9DF9 /* NetworkingCallDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8072F9D72962F12E00BE9DF9 /* NetworkingCallDemo.swift */; };
+		8072F9DD2962FB7900BE9DF9 /* AsyncImageDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8072F9DC2962FB7900BE9DF9 /* AsyncImageDemo.swift */; };
+		8072F9DF2963187E00BE9DF9 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8072F9DE2963187E00BE9DF9 /* Order.swift */; };
+		8072F9E32963376A00BE9DF9 /* AddrView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8072F9E22963376A00BE9DF9 /* AddrView.swift */; };
+		8072F9E52963B7B800BE9DF9 /* CheckoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8072F9E42963B7B800BE9DF9 /* CheckoutView.swift */; };
 		80B54791295BC4E900705531 /* WordScramble.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B54790295BC4E900705531 /* WordScramble.swift */; };
 		80B54795295BD1FF00705531 /* start.txt in Resources */ = {isa = PBXBuildFile; fileRef = 80B54794295BD1FF00705531 /* start.txt */; };
 		80B6B2612957549200B2EF5E /* days100App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B6B2602957549200B2EF5E /* days100App.swift */; };
@@ -86,6 +92,12 @@
 		8072F9CD2962ACB300BE9DF9 /* ImagePaintDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePaintDemo.swift; sourceTree = "<group>"; };
 		8072F9CF2962B4E900BE9DF9 /* ColorGrp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorGrp.swift; sourceTree = "<group>"; };
 		8072F9D22962BD3400BE9DF9 /* DrawingDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingDemo.swift; sourceTree = "<group>"; };
+		8072F9D52962DC9300BE9DF9 /* CupCakeCoverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CupCakeCoverView.swift; sourceTree = "<group>"; };
+		8072F9D72962F12E00BE9DF9 /* NetworkingCallDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingCallDemo.swift; sourceTree = "<group>"; };
+		8072F9DC2962FB7900BE9DF9 /* AsyncImageDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncImageDemo.swift; sourceTree = "<group>"; };
+		8072F9DE2963187E00BE9DF9 /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		8072F9E22963376A00BE9DF9 /* AddrView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddrView.swift; sourceTree = "<group>"; };
+		8072F9E42963B7B800BE9DF9 /* CheckoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutView.swift; sourceTree = "<group>"; };
 		80B54790295BC4E900705531 /* WordScramble.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordScramble.swift; sourceTree = "<group>"; };
 		80B54794295BD1FF00705531 /* start.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = start.txt; sourceTree = "<group>"; };
 		80B6B25D2957549200B2EF5E /* days100.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = days100.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -241,6 +253,26 @@
 			path = "blur,blend and more";
 			sourceTree = "<group>";
 		};
+		8072F9D42962DC6D00BE9DF9 /* CupCakeCover */ = {
+			isa = PBXGroup;
+			children = (
+				8072F9D52962DC9300BE9DF9 /* CupCakeCoverView.swift */,
+				8072F9DE2963187E00BE9DF9 /* Order.swift */,
+				8072F9E22963376A00BE9DF9 /* AddrView.swift */,
+				8072F9E42963B7B800BE9DF9 /* CheckoutView.swift */,
+			);
+			path = CupCakeCover;
+			sourceTree = "<group>";
+		};
+		8072F9D92962F9D100BE9DF9 /* Network call */ = {
+			isa = PBXGroup;
+			children = (
+				8072F9D72962F12E00BE9DF9 /* NetworkingCallDemo.swift */,
+				8072F9DC2962FB7900BE9DF9 /* AsyncImageDemo.swift */,
+			);
+			path = "Network call";
+			sourceTree = "<group>";
+		};
 		80B5478F295BC4BD00705531 /* wordScramble */ = {
 			isa = PBXGroup;
 			children = (
@@ -268,6 +300,8 @@
 		80B6B25F2957549200B2EF5E /* days100 */ = {
 			isa = PBXGroup;
 			children = (
+				8072F9D92962F9D100BE9DF9 /* Network call */,
+				8072F9D42962DC6D00BE9DF9 /* CupCakeCover */,
 				8072F9D12962BCE100BE9DF9 /* blur,blend and more */,
 				8072F9CC2962AC9C00BE9DF9 /* imagePaint */,
 				8072F9C72962638600BE9DF9 /* canvas tutorial */,
@@ -401,11 +435,13 @@
 				8072F99229606B8C00BE9DF9 /* StateObersverDemo.swift in Sources */,
 				8072F9D02962B4E900BE9DF9 /* ColorGrp.swift in Sources */,
 				8072F9C02961E38700BE9DF9 /* Missions.swift in Sources */,
+				8072F9E52963B7B800BE9DF9 /* CheckoutView.swift in Sources */,
 				8072F9A32961721500BE9DF9 /* AddExpensesView.swift in Sources */,
 				8072F9C62962018E00BE9DF9 /* AstronautView.swift in Sources */,
 				8072F99F29615ECB00BE9DF9 /* Expenses.swift in Sources */,
 				8072F9872960165E00BE9DF9 /* AnimationRotate3D.swift in Sources */,
 				8072F983295FF74600BE9DF9 /* Animations.swift in Sources */,
+				8072F9D82962F12E00BE9DF9 /* NetworkingCallDemo.swift in Sources */,
 				8072F99D29615E6100BE9DF9 /* ExpenseItem.swift in Sources */,
 				80B6B28E295A693E00B2EF5E /* StepperDemo.swift in Sources */,
 				8072F9CE2962ACB300BE9DF9 /* ImagePaintDemo.swift in Sources */,
@@ -425,6 +461,10 @@
 				8072F98B296022D700BE9DF9 /* AnimationDrag.swift in Sources */,
 				8072F9D32962BD3400BE9DF9 /* DrawingDemo.swift in Sources */,
 				8072F9972960932B00BE9DF9 /* DeleteFromListDemo.swift in Sources */,
+				8072F9DF2963187E00BE9DF9 /* Order.swift in Sources */,
+				8072F9E32963376A00BE9DF9 /* AddrView.swift in Sources */,
+				8072F9D62962DC9300BE9DF9 /* CupCakeCoverView.swift in Sources */,
+				8072F9DD2962FB7900BE9DF9 /* AsyncImageDemo.swift in Sources */,
 				80B6B291295A6A5500B2EF5E /* DateTimePickerDemo.swift in Sources */,
 				8072F9AC2961BDA800BE9DF9 /* NavigationLinkDemo.swift in Sources */,
 			);
