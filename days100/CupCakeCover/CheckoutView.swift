@@ -74,7 +74,7 @@ struct CheckoutView: View {
             
             let decodedOrder = try JSONDecoder().decode(Order.self, from: data)
             
-            alertMessage = "your order for \(decodedOrder.quantity)x \(Order.types[decodedOrder.type].lowercased())  cakes is on the way"
+            alertMessage = "your order for \(decodedOrder.quantity)x \(decodedOrder.type)  is on the way"
             isAlertPresent = true
         } catch {
             print("checkout failed")
