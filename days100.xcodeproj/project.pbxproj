@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8033A26A2969492500EBB325 /* BookWormDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8033A2692969492500EBB325 /* BookWormDemo.swift */; };
+		8033A26D2969493A00EBB325 /* Bookworm.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8033A26B2969493A00EBB325 /* Bookworm.xcdatamodeld */; };
+		8033A270296949EE00EBB325 /* DataFoundation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8033A26F296949EE00EBB325 /* DataFoundation.swift */; };
+		8033A29E296B02AB00EBB325 /* Singer+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8033A29C296B02AB00EBB325 /* Singer+CoreDataClass.swift */; };
+		8033A29F296B02AB00EBB325 /* Singer+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8033A29D296B02AB00EBB325 /* Singer+CoreDataProperties.swift */; };
 		8072F983295FF74600BE9DF9 /* Animations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8072F982295FF74600BE9DF9 /* Animations.swift */; };
 		8072F9852960111600BE9DF9 /* AnimationsSecond.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8072F9842960111600BE9DF9 /* AnimationsSecond.swift */; };
 		8072F9872960165E00BE9DF9 /* AnimationRotate3D.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8072F9862960165E00BE9DF9 /* AnimationRotate3D.swift */; };
@@ -56,9 +61,15 @@
 		80B6B2682957549400B2EF5E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80B6B2672957549400B2EF5E /* Preview Assets.xcassets */; };
 		80B6B28E295A693E00B2EF5E /* StepperDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B6B28D295A693E00B2EF5E /* StepperDemo.swift */; };
 		80B6B291295A6A5500B2EF5E /* DateTimePickerDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B6B290295A6A5500B2EF5E /* DateTimePickerDemo.swift */; };
+		80F6D0EA297319B600D6AB8A /* ConfirmationDialogExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F6D0E9297319B600D6AB8A /* ConfirmationDialogExample.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8033A2692969492500EBB325 /* BookWormDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookWormDemo.swift; sourceTree = "<group>"; };
+		8033A26C2969493A00EBB325 /* Bookworm.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Bookworm.xcdatamodel; sourceTree = "<group>"; };
+		8033A26F296949EE00EBB325 /* DataFoundation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataFoundation.swift; sourceTree = "<group>"; };
+		8033A29C296B02AB00EBB325 /* Singer+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Singer+CoreDataClass.swift"; sourceTree = "<group>"; };
+		8033A29D296B02AB00EBB325 /* Singer+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Singer+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		8072F982295FF74600BE9DF9 /* Animations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animations.swift; sourceTree = "<group>"; };
 		8072F9842960111600BE9DF9 /* AnimationsSecond.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationsSecond.swift; sourceTree = "<group>"; };
 		8072F9862960165E00BE9DF9 /* AnimationRotate3D.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationRotate3D.swift; sourceTree = "<group>"; };
@@ -109,6 +120,7 @@
 		80B6B2672957549400B2EF5E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		80B6B28D295A693E00B2EF5E /* StepperDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepperDemo.swift; sourceTree = "<group>"; };
 		80B6B290295A6A5500B2EF5E /* DateTimePickerDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateTimePickerDemo.swift; sourceTree = "<group>"; };
+		80F6D0E9297319B600D6AB8A /* ConfirmationDialogExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmationDialogExample.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +134,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8033A2682969489C00EBB325 /* bookworm */ = {
+			isa = PBXGroup;
+			children = (
+				8033A29C296B02AB00EBB325 /* Singer+CoreDataClass.swift */,
+				8033A29D296B02AB00EBB325 /* Singer+CoreDataProperties.swift */,
+				8033A2692969492500EBB325 /* BookWormDemo.swift */,
+				8033A26B2969493A00EBB325 /* Bookworm.xcdatamodeld */,
+				8033A26F296949EE00EBB325 /* DataFoundation.swift */,
+			);
+			path = bookworm;
+			sourceTree = "<group>";
+		};
 		8072F981295FF70000BE9DF9 /* animations */ = {
 			isa = PBXGroup;
 			children = (
@@ -310,6 +334,8 @@
 		80B6B25F2957549200B2EF5E /* days100 */ = {
 			isa = PBXGroup;
 			children = (
+				80F6D0E82973199500D6AB8A /* confirmationDialogExample */,
+				8033A2682969489C00EBB325 /* bookworm */,
 				80806FC82967AB5000850D10 /* textEditorDemo */,
 				8072F9D92962F9D100BE9DF9 /* Network call */,
 				8072F9D42962DC6D00BE9DF9 /* CupCakeCover */,
@@ -360,6 +386,14 @@
 				80B6B290295A6A5500B2EF5E /* DateTimePickerDemo.swift */,
 			);
 			path = DateAndTimePicker;
+			sourceTree = "<group>";
+		};
+		80F6D0E82973199500D6AB8A /* confirmationDialogExample */ = {
+			isa = PBXGroup;
+			children = (
+				80F6D0E9297319B600D6AB8A /* ConfirmationDialogExample.swift */,
+			);
+			path = confirmationDialogExample;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -449,9 +483,13 @@
 				8072F9C02961E38700BE9DF9 /* Missions.swift in Sources */,
 				8072F9E52963B7B800BE9DF9 /* CheckoutView.swift in Sources */,
 				8072F9A32961721500BE9DF9 /* AddExpensesView.swift in Sources */,
+				8033A29F296B02AB00EBB325 /* Singer+CoreDataProperties.swift in Sources */,
 				8072F9C62962018E00BE9DF9 /* AstronautView.swift in Sources */,
 				8072F99F29615ECB00BE9DF9 /* Expenses.swift in Sources */,
 				8072F9872960165E00BE9DF9 /* AnimationRotate3D.swift in Sources */,
+				8033A29E296B02AB00EBB325 /* Singer+CoreDataClass.swift in Sources */,
+				8033A26D2969493A00EBB325 /* Bookworm.xcdatamodeld in Sources */,
+				8033A270296949EE00EBB325 /* DataFoundation.swift in Sources */,
 				8072F983295FF74600BE9DF9 /* Animations.swift in Sources */,
 				8072F9D82962F12E00BE9DF9 /* NetworkingCallDemo.swift in Sources */,
 				8072F99D29615E6100BE9DF9 /* ExpenseItem.swift in Sources */,
@@ -470,11 +508,13 @@
 				8072F9A62961921900BE9DF9 /* ImageDemoView.swift in Sources */,
 				8072F9B22961CB2F00BE9DF9 /* GridExample.swift in Sources */,
 				8072F98929601CFB00BE9DF9 /* AnimationBoolean.swift in Sources */,
+				8033A26A2969492500EBB325 /* BookWormDemo.swift in Sources */,
 				8072F98B296022D700BE9DF9 /* AnimationDrag.swift in Sources */,
 				8072F9D32962BD3400BE9DF9 /* DrawingDemo.swift in Sources */,
 				8072F9972960932B00BE9DF9 /* DeleteFromListDemo.swift in Sources */,
 				8072F9DF2963187E00BE9DF9 /* Order.swift in Sources */,
 				8072F9E32963376A00BE9DF9 /* AddrView.swift in Sources */,
+				80F6D0EA297319B600D6AB8A /* ConfirmationDialogExample.swift in Sources */,
 				8072F9D62962DC9300BE9DF9 /* CupCakeCoverView.swift in Sources */,
 				8072F9DD2962FB7900BE9DF9 /* AsyncImageDemo.swift in Sources */,
 				80B6B291295A6A5500B2EF5E /* DateTimePickerDemo.swift in Sources */,
@@ -677,6 +717,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8033A26B2969493A00EBB325 /* Bookworm.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8033A26C2969493A00EBB325 /* Bookworm.xcdatamodel */,
+			);
+			currentVersion = 8033A26C2969493A00EBB325 /* Bookworm.xcdatamodel */;
+			path = Bookworm.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 80B6B2552957549200B2EF5E /* Project object */;
 }
