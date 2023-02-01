@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8003E273297B633D0001642B /* DocumentDirectoryUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8003E272297B633D0001642B /* DocumentDirectoryUIView.swift */; };
 		8033A26A2969492500EBB325 /* BookWormDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8033A2692969492500EBB325 /* BookWormDemo.swift */; };
 		8033A26D2969493A00EBB325 /* Bookworm.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8033A26B2969493A00EBB325 /* Bookworm.xcdatamodeld */; };
 		8033A270296949EE00EBB325 /* DataFoundation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8033A26F296949EE00EBB325 /* DataFoundation.swift */; };
@@ -61,10 +62,14 @@
 		80B6B2682957549400B2EF5E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80B6B2672957549400B2EF5E /* Preview Assets.xcassets */; };
 		80B6B28E295A693E00B2EF5E /* StepperDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B6B28D295A693E00B2EF5E /* StepperDemo.swift */; };
 		80B6B291295A6A5500B2EF5E /* DateTimePickerDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B6B290295A6A5500B2EF5E /* DateTimePickerDemo.swift */; };
+		80D2A5C12989E1B4008DFA95 /* TabLayoutDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D2A5C02989E1B4008DFA95 /* TabLayoutDemo.swift */; };
+		80D2A5C42989EB0F008DFA95 /* SwipeActionDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D2A5C32989EB0F008DFA95 /* SwipeActionDemo.swift */; };
 		80F6D0EA297319B600D6AB8A /* ConfirmationDialogExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F6D0E9297319B600D6AB8A /* ConfirmationDialogExample.swift */; };
+		80F6D0ED29738D3C00D6AB8A /* ComparableCustomTypeDemp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F6D0EC29738D3C00D6AB8A /* ComparableCustomTypeDemp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8003E272297B633D0001642B /* DocumentDirectoryUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentDirectoryUIView.swift; sourceTree = "<group>"; };
 		8033A2692969492500EBB325 /* BookWormDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookWormDemo.swift; sourceTree = "<group>"; };
 		8033A26C2969493A00EBB325 /* Bookworm.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Bookworm.xcdatamodel; sourceTree = "<group>"; };
 		8033A26F296949EE00EBB325 /* DataFoundation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataFoundation.swift; sourceTree = "<group>"; };
@@ -120,7 +125,10 @@
 		80B6B2672957549400B2EF5E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		80B6B28D295A693E00B2EF5E /* StepperDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepperDemo.swift; sourceTree = "<group>"; };
 		80B6B290295A6A5500B2EF5E /* DateTimePickerDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateTimePickerDemo.swift; sourceTree = "<group>"; };
+		80D2A5C02989E1B4008DFA95 /* TabLayoutDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabLayoutDemo.swift; sourceTree = "<group>"; };
+		80D2A5C32989EB0F008DFA95 /* SwipeActionDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeActionDemo.swift; sourceTree = "<group>"; };
 		80F6D0E9297319B600D6AB8A /* ConfirmationDialogExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmationDialogExample.swift; sourceTree = "<group>"; };
+		80F6D0EC29738D3C00D6AB8A /* ComparableCustomTypeDemp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComparableCustomTypeDemp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,6 +142,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8003E271297B63170001642B /* document directory */ = {
+			isa = PBXGroup;
+			children = (
+				8003E272297B633D0001642B /* DocumentDirectoryUIView.swift */,
+			);
+			path = "document directory";
+			sourceTree = "<group>";
+		};
 		8033A2682969489C00EBB325 /* bookworm */ = {
 			isa = PBXGroup;
 			children = (
@@ -334,6 +350,10 @@
 		80B6B25F2957549200B2EF5E /* days100 */ = {
 			isa = PBXGroup;
 			children = (
+				80D2A5C22989EADC008DFA95 /* swipeAction */,
+				80D2A5BF2989E1A1008DFA95 /* tab */,
+				8003E271297B63170001642B /* document directory */,
+				80F6D0EB29738D1400D6AB8A /* comparableCustomType */,
 				80F6D0E82973199500D6AB8A /* confirmationDialogExample */,
 				8033A2682969489C00EBB325 /* bookworm */,
 				80806FC82967AB5000850D10 /* textEditorDemo */,
@@ -388,12 +408,36 @@
 			path = DateAndTimePicker;
 			sourceTree = "<group>";
 		};
+		80D2A5BF2989E1A1008DFA95 /* tab */ = {
+			isa = PBXGroup;
+			children = (
+				80D2A5C02989E1B4008DFA95 /* TabLayoutDemo.swift */,
+			);
+			path = tab;
+			sourceTree = "<group>";
+		};
+		80D2A5C22989EADC008DFA95 /* swipeAction */ = {
+			isa = PBXGroup;
+			children = (
+				80D2A5C32989EB0F008DFA95 /* SwipeActionDemo.swift */,
+			);
+			path = swipeAction;
+			sourceTree = "<group>";
+		};
 		80F6D0E82973199500D6AB8A /* confirmationDialogExample */ = {
 			isa = PBXGroup;
 			children = (
 				80F6D0E9297319B600D6AB8A /* ConfirmationDialogExample.swift */,
 			);
 			path = confirmationDialogExample;
+			sourceTree = "<group>";
+		};
+		80F6D0EB29738D1400D6AB8A /* comparableCustomType */ = {
+			isa = PBXGroup;
+			children = (
+				80F6D0EC29738D3C00D6AB8A /* ComparableCustomTypeDemp.swift */,
+			);
+			path = comparableCustomType;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -476,7 +520,9 @@
 				80806FCA2967AB6200850D10 /* TextEditorDemo.swift in Sources */,
 				80B6B2632957549200B2EF5E /* ContentView.swift in Sources */,
 				8072F9A129615F0C00BE9DF9 /* ExpensesDemoView.swift in Sources */,
+				80F6D0ED29738D3C00D6AB8A /* ComparableCustomTypeDemp.swift in Sources */,
 				8072F9AF2961C5A800BE9DF9 /* CodableDataDecoder.swift in Sources */,
+				80D2A5C12989E1B4008DFA95 /* TabLayoutDemo.swift in Sources */,
 				8072F98F2960445000BE9DF9 /* AnimationCustom.swift in Sources */,
 				8072F99229606B8C00BE9DF9 /* StateObersverDemo.swift in Sources */,
 				8072F9D02962B4E900BE9DF9 /* ColorGrp.swift in Sources */,
@@ -485,10 +531,12 @@
 				8072F9A32961721500BE9DF9 /* AddExpensesView.swift in Sources */,
 				8033A29F296B02AB00EBB325 /* Singer+CoreDataProperties.swift in Sources */,
 				8072F9C62962018E00BE9DF9 /* AstronautView.swift in Sources */,
+				8003E273297B633D0001642B /* DocumentDirectoryUIView.swift in Sources */,
 				8072F99F29615ECB00BE9DF9 /* Expenses.swift in Sources */,
 				8072F9872960165E00BE9DF9 /* AnimationRotate3D.swift in Sources */,
 				8033A29E296B02AB00EBB325 /* Singer+CoreDataClass.swift in Sources */,
 				8033A26D2969493A00EBB325 /* Bookworm.xcdatamodeld in Sources */,
+				80D2A5C42989EB0F008DFA95 /* SwipeActionDemo.swift in Sources */,
 				8033A270296949EE00EBB325 /* DataFoundation.swift in Sources */,
 				8072F983295FF74600BE9DF9 /* Animations.swift in Sources */,
 				8072F9D82962F12E00BE9DF9 /* NetworkingCallDemo.swift in Sources */,
